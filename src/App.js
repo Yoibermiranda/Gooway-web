@@ -1,5 +1,5 @@
 import './App.css';
-import Carousel from '../src/components/carrusel';
+import Carousel from './components/Carousel/carrusel';
 function App() {
 
   const images = [
