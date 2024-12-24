@@ -1,5 +1,6 @@
 import './App.css';
-import Carousel from './components/Carousel/carrusel';
+import Carousel from './components/carousel/carrusel.js';
+import Banner from "./components/banner/banner";
 function App() {
 
   const images = [
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello Word</h1>
-
+      <Banner title="Conoce Toda la historia del Corralito de piedra" subtitle="web"/>
       <Carousel images={images} />
     </div>
 
